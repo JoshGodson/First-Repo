@@ -1,0 +1,32 @@
+img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+body {
+  margin: 10px;
+  border: 10px solid red;
+  padding: 50px;
+}
+
+/* p .navLink { 
+  color: blue;
+} */
+
+#navbar {
+  background-color: rosybrown;
+}
+.navLink {
+  color: azure;
+}
+
+#estimate {
+  border: 2px solid black;
+  border-radius: 15px;
+  color: #fd4601;
+  background-color: #ededed;
+  padding: 8px 10px 10px 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: url("./images/not-allowed.png"), pointer;
+}
