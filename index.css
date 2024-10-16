@@ -13,9 +13,14 @@ p .navLink {
   color: blue;
 }
 #navbar {
-  background-color: white;
+  background-color: yellowgreen;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  top: 0;
 }
 
 .logo {
@@ -115,4 +120,38 @@ p .navLink {
   height: 100vh;
   justify-content: space-between;
   align-items: baseline;
+}
+
+.position {
+  height: 100vh;
+  width: 100%;
+  background-color: darkolivegreen;
+  position: relative;
+}
+.boxed {
+  background-color: #fd4601;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 10rem;
+  top: 20rem;
+}
+.absolute {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.fixed {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+}
+.sticky {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
 }
